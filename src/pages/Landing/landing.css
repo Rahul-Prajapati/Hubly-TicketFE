@@ -1,0 +1,303 @@
+.landing-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #F8FBFE;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* gap: 1rem; */
+}
+
+.landing-Header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.landing-Header .Left-Header {
+    display: flex;
+    margin: 1.25rem 0;
+
+}
+
+
+.landing-header-logo {
+    width: 56px;
+    height: 56px;
+}
+
+.Landing-AppName {
+    font-size: 40px;
+    font-family: var(--font-sec);
+    font-weight: 600;
+}
+
+.HeroSection-wrapper {
+    margin-top: 5rem;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    font-family: "Barlow";
+}
+
+.Hero-wrapper-left {
+    width: 54%;
+}
+
+.hero-heading {
+    font-size: 50px;
+    color: #30404D;
+    margin: 5rem 0 .5rem 0;
+}
+
+.hero-subheading {
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #30404D;
+    font-weight: 400;
+
+
+}
+
+.hero-buttons-group {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.GetStarted {
+    background-color: #244779;
+    color: #FFFFFF;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    width: 10rem;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.watch-Videos {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.watch-Videos :first-child {
+    color: #244779;
+
+}
+
+.watch-Videos> :nth-child(2) {
+    color: #30404D;
+}
+
+.Hero-wrapper-right {
+    width: 46%;
+}
+
+.Hero-img-div {
+    position: relative;
+}
+
+.Uercard-img {
+    position: absolute;
+    right: -105px;
+    top: -50px;
+}
+
+.NetSales-img {
+    position: absolute;
+    right: -82px;
+    bottom: 102px;
+}
+
+.brands-wrapper {
+    background-color: #EBF1F9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 8rem;
+    width: 100%;
+    color: #184E7F99;
+}
+
+.companyName {
+    font-size: 2.5rem;
+}
+
+.help-Solution {
+    margin: 3rem 0;
+    font-family: "Barlow";
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.upperheadtext {
+    width: 60%;
+    align-self: center;
+
+}
+
+.helps-heading {
+    font-size: 2.5rem;
+}
+
+.helps-subheading {
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.Help-solution-banner {
+    border: 2px solid rgba(111, 164, 215, 0.16);
+    display: flex;
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.sol-banner-left {
+    margin-top: 7rem;
+}
+
+.sol-banner-head {
+    color: #30404D;
+    font-size: 1.5rem;
+    margin: 1rem 0 0 2.25rem;
+}
+
+.sol-banner-subhead {
+    color: #394B59;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 0 0 2.25rem;
+}
+
+.sol-banner-right {
+    position: relative;
+    padding: 3rem;
+    margin-top: 3rem;
+}
+
+.appsclass {
+    position: absolute;
+    top: 10px;
+    right: 68px;
+}
+
+
+/* Pricing plans Css Start */
+
+.plans-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: #30404D;
+    font-family: "Barlow";
+    width: 80%;
+}
+
+.upper-plans-text {
+    margin: 2rem;
+}
+
+.plans-main-heading {
+    font-size: 2.75rem;
+    margin: 1rem 0;
+}
+
+.plans-main-subheading {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.plans-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f9fafb;
+}
+
+.pricing-card {
+    width: 50%;
+    background: #ffffff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.plan-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.plan-description {
+    font-size: 1.25rem;
+    color: rgba(48, 64, 77, 0.7);
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.plan-price {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #3A7ABD;
+}
+
+.plan-period {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #98A8B3;
+    margin-left: 0.25rem;
+}
+
+.feature-list {
+    margin: 1rem 0;
+    list-style: none;
+    padding: 0;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.feature-item span {
+    color: #2F5F8B;
+    background-color: #E1EEFA;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    padding: 5px;
+}
+
+
+
+.signup-button {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid rgba(36, 71, 121, 0.4);
+    color: #244779;
+    background: none;
+    border-radius: 9999px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Pricing plans css End */
