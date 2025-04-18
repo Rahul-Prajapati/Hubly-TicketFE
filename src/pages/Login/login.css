@@ -1,0 +1,87 @@
+.Auth-Container{
+    display: flex;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.Auth-left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Signin-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 3rem;
+    color: #666666;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.heading{
+    font-size: 1.75rem;
+    font-weight: 600;
+    display: flex;
+}
+
+.noborder{
+    border: none;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: var(--font-ter);
+}
+
+.signin-input{
+    color: #482121;
+    /* background-color: #EFF0EC; */
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: .8rem;
+    font-size: 1rem;
+    border: 0.7px solid rgba(102, 102, 102, 0.35);
+}
+
+.btn-login{
+    background-color: #C3C3C3;
+    font-family: var(--font-sec);
+    color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 4rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.signup-link{
+    font-family: var(--font-sec);
+    color: #000000;
+    font-size: .8rem;
+}
+
+.signup-link > span{
+    color: #244779;
+    cursor: pointer;
+}
+
+.Login-TnC-description{
+    font-family: var(--font-sec);
+    font-size: .75rem;
+    color: #676B5F;
+    width: 62%;
+    margin: 0 auto;
+    height: 20%;
+    display: flex;
+    align-items: end;
+}
+
+.AuthIMG{
+    display: flex;
+    flex-grow: 1;
+    height: 100vh;   
+}

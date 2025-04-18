@@ -1,0 +1,21 @@
+.AuthHeader{
+    margin: 2.5rem;
+}
+
+.AuthHeader .Header-grp {
+    display: flex;
+    margin: 1.25rem 0;
+    gap: 4px;
+}
+
+.header-logo {
+    width: 45px;
+    height: 45px;
+}
+
+.header-AppName {
+    color: #184E7F;
+    font-size: 2rem;
+    font-family: var(--font-sec);
+    font-weight: 600;
+}
